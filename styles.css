@@ -52,9 +52,9 @@ nav a {
 }
 
 .hero-content h1 {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
-  color: #F9FAF8;
+  color: #E5E7EB;
   margin-bottom: 10px;
 }
 
@@ -73,6 +73,12 @@ nav a {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-image img {
