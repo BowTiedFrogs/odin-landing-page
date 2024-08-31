@@ -52,9 +52,9 @@ nav a {
 }
 
 .hero-content h1 {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 800;
-  color: #E5E7EB;
+  color: #F9FAF8;
   margin-bottom: 10px;
 }
 
@@ -62,6 +62,7 @@ nav a {
   font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 20px;
+  opacity: 0.7;
 }
 
 .hero-button {
@@ -84,6 +85,7 @@ nav a {
 .hero-image img {
   width: 500px;
   height: auto;
+  align-self: flex-end;
 }
 
 /* Info Section */
@@ -101,7 +103,7 @@ nav a {
 
 .info-cards {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 52px;
 }
 
@@ -137,7 +139,7 @@ blockquote {
   line-height: 1.4;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .quote-author {
@@ -147,7 +149,7 @@ blockquote {
   text-align: right;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
 }
 
 /* Call to Action Section */
@@ -161,8 +163,12 @@ blockquote {
   padding: 40px 80px;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.cta-content {
+  margin-right: auto;
 }
 
 .cta-content h3 {
@@ -191,8 +197,8 @@ blockquote {
 footer {
   background-color: #1F2937;
   color: #E5E7EB;
-  text-align: center;
-  padding: 40px 0;
+  text-align: right;
+  padding: 40px 200px;
   font-size: 18px;
   margin-top: auto;
 }
