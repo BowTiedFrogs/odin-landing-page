@@ -64,7 +64,7 @@ nav a {
   margin-bottom: 20px;
 }
 
-.hero-content button {
+.hero-button {
   background-color: #3882F6;
   color: #FFFFFF;
   border: none;
@@ -97,7 +97,6 @@ nav a {
   display: flex;
   justify-content: center;
   gap: 52px;
-  flex-direction: row;
 }
 
 .card {
@@ -120,7 +119,7 @@ nav a {
 /* Quote Section */
 #quote {
   background-color: #E5E7EB;
-  padding: 100px 350px;
+  padding: 100px 200px;
 }
 
 blockquote {
@@ -129,6 +128,10 @@ blockquote {
   font-weight: 300;
   color: #1F2937;
   margin-bottom: 20px;
+  line-height: 1.4;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quote-author {
@@ -136,6 +139,9 @@ blockquote {
   font-size: 24px;
   color: #1F2937;
   text-align: right;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Call to Action Section */
