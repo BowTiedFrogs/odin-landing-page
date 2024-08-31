@@ -152,13 +152,13 @@ blockquote {
 
 /* Call to Action Section */
 #cta {
-  padding: 100px 200px;
+  padding: 80px 100px;
 }
 
 .cta-container {
   background-color: #3882F6;
   color: #FFFFFF;
-  padding: 50px 100px;
+  padding: 40px 80px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
