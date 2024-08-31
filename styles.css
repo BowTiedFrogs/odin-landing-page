@@ -27,6 +27,8 @@ nav ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -51,7 +53,7 @@ nav a {
 
 .hero-content h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 800;
   color: #F9FAF8;
   margin-bottom: 10px;
 }
@@ -86,7 +88,7 @@ nav a {
 
 #info h2 {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: 800;
   color: #1F2937;
   margin-bottom: 40px;
 }
@@ -95,6 +97,7 @@ nav a {
   display: flex;
   justify-content: center;
   gap: 52px;
+  flex-direction: row;
 }
 
 .card {
@@ -123,7 +126,7 @@ nav a {
 blockquote {
   font-size: 36px;
   font-style: italic;
-  font-weight: light;
+  font-weight: 300;
   color: #1F2937;
   margin-bottom: 20px;
 }
@@ -140,7 +143,7 @@ blockquote {
   padding: 100px 200px;
 }
 
-#cta > div {
+.cta-container {
   background-color: #3882F6;
   color: #FFFFFF;
   padding: 50px 100px;
@@ -158,9 +161,10 @@ blockquote {
 .cta-content p {
   font-size: 18px;
   color: #E5E7EB;
+  margin: 0;
 }
 
-#cta button {
+.cta-button {
   background-color: transparent;
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
@@ -178,4 +182,5 @@ footer {
   text-align: center;
   padding: 40px 0;
   font-size: 18px;
+  margin-top: auto;
 }
